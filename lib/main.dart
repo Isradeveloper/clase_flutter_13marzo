@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:trece_marzo/widgets/DisenoUno.dart';
+import 'package:trece_marzo/widgets/EjCheck.dart';
 import 'package:trece_marzo/widgets/RadioButton.dart';
+import 'package:trece_marzo/widgets/botonFlotante.dart';
+import 'package:trece_marzo/widgets/dialogoAlerta.dart';
 import 'package:trece_marzo/widgets/principal.dart';
+import 'package:trece_marzo/widgets/wCajasTexto.dart';
 import 'package:trece_marzo/widgets/wRichText.dart';
 import 'package:trece_marzo/widgets/wText.dart';
 import 'package:trece_marzo/widgets/wTextField.dart';
@@ -25,6 +30,12 @@ class MyApp extends StatelessWidget {
         '/wRichText': ((context) => const WRichText()),
         '/wTextField': ((context) => const WTextField()),
         '/RadioButton': ((context) => const RadioButton()),
+        '/Checkbox': ((context) => const EjCheck()),
+        '/BotonFlotante': ((context) => const BotonFlotante()),
+        '/wCajasTexto': ((context) => const wCajasTexto()),
+        '/dialog': ((context) => const dialogoAlerta()),
+        '/diseno1': ((context) => const DisenoUno()),
+
       },
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

@@ -14,6 +14,11 @@ class Principal extends StatelessWidget {
             children: [
               ElevatedButton(
                   onPressed: () {
+                    Navigator.pushNamed(context, '/diseno1');
+                  },
+                  child: const Text("Diseño uno")),
+              ElevatedButton(
+                  onPressed: () {
                     Navigator.pushNamed(context, '/wText');
                   },
                   child: const Text("W text")),
@@ -31,7 +36,27 @@ class Principal extends StatelessWidget {
                   onPressed: () {
                     Navigator.pushNamed(context, '/RadioButton');
                   },
-                  child: const Text("Radio button"))
+                  child: const Text("Radio button")),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/Checkbox');
+                  },
+                  child: const Text("Checkbox")),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/BotonFlotante');
+                  },
+                  child: const Text("Boton Flotante")),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/wCajasTexto');
+                  },
+                  child: const Text("W cajas texto")),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/dialog');
+                  },
+                  child: const Text("Dialog alert")),
             ],
           ),
         ));
