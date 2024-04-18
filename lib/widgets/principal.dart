@@ -57,6 +57,21 @@ class Principal extends StatelessWidget {
                     Navigator.pushNamed(context, '/dialog');
                   },
                   child: const Text("Dialog alert")),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/pestana');
+                  },
+                  child: const Text("Pestañas")),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/rating');
+                  },
+                  child: const Text("Rating")),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/diseno4');
+                  },
+                  child: const Text("Diseno4")),
             ],
           ),
         ));

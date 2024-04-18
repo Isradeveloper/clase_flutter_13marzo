@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:trece_marzo/widgets/Diseno4.dart';
 import 'package:trece_marzo/widgets/DisenoUno.dart';
 import 'package:trece_marzo/widgets/EjCheck.dart';
+import 'package:trece_marzo/widgets/Pestanas.dart';
 import 'package:trece_marzo/widgets/RadioButton.dart';
+import 'package:trece_marzo/widgets/Rating.dart';
 import 'package:trece_marzo/widgets/botonFlotante.dart';
 import 'package:trece_marzo/widgets/dialogoAlerta.dart';
 import 'package:trece_marzo/widgets/principal.dart';
@@ -35,6 +38,9 @@ class MyApp extends StatelessWidget {
         '/wCajasTexto': ((context) => const wCajasTexto()),
         '/dialog': ((context) => const dialogoAlerta()),
         '/diseno1': ((context) => const DisenoUno()),
+        '/pestana': ((context) => const Pestanas()),
+        '/rating': ((context) => const Rating()),
+        '/diseno4': ((context) => const DisenoCuatro()),
 
       },
       theme: ThemeData(
